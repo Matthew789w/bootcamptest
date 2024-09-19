@@ -1,0 +1,291 @@
+body{
+  margin: 0;
+  background-color: rgb(21, 21, 92);
+  color: white;
+  background-image: url("pictures/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Arial;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(43, 43, 138);
+  margin-bottom: 0%;
+  margin-top: 0%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0.2px solid;
+  border-color: black;
+  border-top: none;
+}
+
+.nav-bar ul{
+  list-style-type: none;
+  background-color: rgb(35, 35, 110);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  box-shadow: 0px 6px 30px rgb(0, 0, 0, 0.5);
+  justify-content: space-between;
+}
+
+
+.nav-bar a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  transition: font-weight 0.15s, background-color 0.15s;
+}
+
+.nav-bar a:hover{
+  background-color:  rgb(42, 42, 141);
+}
+
+.nav-bar li{
+  
+  float: right;
+  font-size: 17px;
+} 
+
+.Introduction {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 20px;
+}
+
+.Name{
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.quote{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.word_wisdom {
+  text-align: center;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 20px;
+}
+
+.my_image{
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 350px;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.des{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.skill_des{
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.my_sk{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 40px; 
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.list_skills{
+  text-align: center;
+  margin-top: 0px;
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.Current{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 40px; 
+  margin-bottom: 20px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Description_4{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.social-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(43, 43, 138);
+  margin-top: 50px;
+  box-shadow: 0px 2px 20px rgb(0, 0, 0, 0.5);
+}
+
+.social-footer a {
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.skills-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.skill-item {
+  background-color: rgb(35, 35, 110);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 10px 20px 20px rgb(0, 0, 0);
+  margin-left: 0px;
+}
+
+.skill-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.skill-item h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.skill-item p {
+  font-size: 16px;
+}
+
+
+.activities-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 300px;
+}
+
+.activity-item {
+  background-color: rgb(35, 35, 110);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.activity-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.activity-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.activity-item h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.activity-item p {
+  font-size: 16px;
+}
+
+.paragraph {
+  width: 500px;
+}
+
+.Matt {
+  color: aqua;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.attack {
+  width: 500px;
+}
+
+.formbt {
+  background-color: cyan;
+  padding: 20px;
+  border: 1px;
+  border-color: rgb(20, 20, 241);
+  text-align: center;
+  margin-left: 30px;
+  transition: padding 0.15s;
+  margin: 50px;
+}
+
+.formbt:hover{
+  padding: 50px;
+}
+
+.yt {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+

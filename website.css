@@ -1,0 +1,49 @@
+.cssform {
+  background-color: aqua;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(87, 79, 79);
+  width: 460px;
+  padding: 5px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.fieldset {
+  margin-top: 20px;
+}
+
+#intro{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.texts {
+  margin-top: 15px;
+}
+.Lastname {
+  margin-top: 5px;
+}
+
+.mypicks {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.lang {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.submit {
+  margin-top: 10px;
+  margin-left: 180px;
+}
+

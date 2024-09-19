@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="website.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="cssform">
+    <form method="post" action="process.php">
+      <fieldset class="fieldset">
+        <legend  id="intro">Introduce yourself</legend>
+        <div class="texts">
+          Fisrt Name: <input type="text" size="20" name="Fisrtname"></input> <br>
+         <div class="Lastname">Last Name: <input type="text" size="30" name="Lastname"></input></div>
+        </div>
+         
+         <div class="mycon">
+          <div class="mypicks">
+            <div>
+              My Pets:<br>
+              <input type="checkbox" name="Pets" value="dog" checked="checked">Dog<br>
+              <input type="checkbox" name="Pets" value="Cat" checked="checked">Cat<br>
+              <input type="checkbox" name="Pets" value="hamster">Hamster<br>
+              <input type="checkbox" name="Pets" value="Fish">Fish<br>
+            </div>
+            <div>
+              Eye Color:<br>
+            <input type="radio" name="Eye" value="brown" selected="selected">brown<br>
+            <input type="radio" name="Eye" value="blue">blue<br>
+            <input type="radio" name="Eye" value="green">green<br>
+            <input type="radio" name="Eye" value="Other">yellow<br>
+            </div>
+           </div>
+         </div>
+
+         <div class="lang">
+          language Spoken <br>
+          <select name="languages">
+            <option value="French">French</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Japanese">Japanese</option>
+            <option value="Aramaic">Aramaic</option>
+          </select>
+         </div>
+         
+         <div class="about">
+          Us More About Yourself<br>
+          <textarea name="more" rows="10" cols="40">
+            Type Here.
+          </textarea>
+         </div>
+         
+         <input class="submit" type="submit" value="All Done!">
+        
+      </fieldset>
+     </form>
+  </div>
+</body>
+</html>
+
